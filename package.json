@@ -1,0 +1,21 @@
+{
+  "name": "movietube",
+  "version": "1.0.0",
+  "description": "MovieTube - Streaming Platform with PHP Backend",
+  "private": true,
+  "scripts": {
+    "build": "echo 'No build required - PHP static project'",
+    "start": "echo 'PHP server ready'",
+    "dev": "echo 'Development mode'"
+  },
+  "keywords": [
+    "movie",
+    "streaming",
+    "php",
+    "pwa"
+  ],
+  "author": "MovieTube",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

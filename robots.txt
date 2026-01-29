@@ -1,0 +1,41 @@
+# MovieTube - Robots.txt
+User-agent: *
+Allow: /
+Allow: /nonton/*
+Allow: /genre/*
+Allow: /country/*
+Allow: /year/*
+Allow: /search/*
+
+Disallow: /api/
+Disallow: /cache/
+Disallow: /scraper.php
+Disallow: /config.php
+
+Sitemap: https://movietube.com/sitemap.xml
+
+# Crawl-delay untuk bot yang lebih sopan
+Crawl-delay: 1
+
+# Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Social Media Bots (untuk preview cards)
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /

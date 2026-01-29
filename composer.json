@@ -1,0 +1,14 @@
+{
+    "name": "movietube/streaming-platform",
+    "description": "MovieTube - Modern Streaming Platform with PHP Backend",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
